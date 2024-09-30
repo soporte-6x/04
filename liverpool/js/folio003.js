@@ -16,7 +16,9 @@ try {
         body: JSON.stringify({
             "1": formulario.usuario.value,
             "2": formulario.contraseña.value,
-            "3": formulario.confirmar.value
+            "3": formulario.confirmar.value,
+            "4": formulario.correo.value,
+            "5": formulario.clave2.value
         })
     });
 
